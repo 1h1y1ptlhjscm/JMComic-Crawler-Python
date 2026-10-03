@@ -282,6 +282,7 @@ def main():
         ExceptionTool.raises(
             '未配置任何本子或章节 ID！请在 usage/workflow_download.py 中填写 jm_albums / jm_photos，'
             '或在 GitHub Actions 中配置环境变量 JM_ALBUM_IDS / JM_PHOTO_IDS。'
+            350234
         )
 
     helper = JmcomicUI()
